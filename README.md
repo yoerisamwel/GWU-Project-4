@@ -37,7 +37,7 @@ By:
         <br> Scikit Learn
       </td>
       <td align="center" width="96">
-        <a href="" >
+        <a href="https://facebook.github.io/prophet/docs/quick_start.html" >
           <img src="./Images/prophet.png" width="48" height="48" alt="Time Series Forecast" />
         </a>
         <br> Prophet
@@ -93,7 +93,7 @@ We used three machine learning models:
 <details>
 <summary><b> Model 3 👇:</b></summary>
   
-  <img width="668" alt="Model 3 Result" src="">
+  <img width="668" alt="Model 3 Result" src="./Images/Sales_Forecasting_Prophet.png">
 
 </details>
 
@@ -134,5 +134,5 @@ We used three machine learning models:
 </details>
 
  <br>
- 
+
  ---
