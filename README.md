@@ -39,19 +39,18 @@
 
 ## Overview
 The purpose of this project is to:
-  - *Understand Regional Market:* understand the unique characteristics, preferences, and behaviors of customers in different geographic areas. 
-  - *Identify Growth Opportunities:* allow businesses to identify trends and patterns in sales performance, and market demand.
-  - *Enhance Personalization:* enable businesses to personalize the shopping experience based on regional basis. By analyzing past purchase history, businesses can deliver targeted product recommendations.
-  - *Understanding Seasonal Influences:* understand how seasonal factors, and local events impact consumer behavior and purchasing patterns in different regions.
+  - **Understand Regional Market:** understand the unique characteristics, preferences, and behaviors of customers in different geographic areas. 
+  - **Identify Growth Opportunities:** allow businesses to identify trends and patterns in sales performance, and market demand.
+  - **Enhance Personalization:** enable businesses to personalize the shopping experience based on regional basis. By analyzing past purchase history, businesses can deliver targeted product recommendations.
+  - **Understanding Seasonal Influences:** understand how seasonal factors, and local events impact consumer behavior and purchasing patterns in different regions.
 
 ## Analysis
 
-There are 3 *categories* in our dataset:
-- Furniture
-- Office Supplies          
-- Technology
-
-We have three models
+- We have three models:
+  - Model 1: Linear Regression 
+  - Model 2: Ridge Regression  
+  - Model 3: Time Series Forecasts using Facebook's Prophet.
+  
 
 ##  📉 Results 📈
 
@@ -88,4 +87,9 @@ We have three models
 
 
 ## Summary
+
+### Note:
+This was a team project by: <br>
+- [Alaa Aleryani](https://github.com/alaa-aleryani): ➡️ alaaaleryani31@gmail.com 
+- [Yoeri Samewel](https://github.com/yoerisamwel): ➡️ yoerisamwel@gmail.com
 
