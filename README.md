@@ -1,6 +1,6 @@
 # Furniture Ecommerce
 <!-- ![ecommerce](Images/ecommerce.jpg) -->
-<img src="Images/ecommerce.jpg" alt="Ecommerce" width="200400" height="200">
+<img src="Images/ecommerce.jpg" alt="Ecommerce" width="1000" height="300">
 
 
 ## Built With:
@@ -49,15 +49,18 @@ The purpose of this project is to:
   - **Enhance Personalization:** enable businesses to personalize the shopping experience based on regional basis. By analyzing past purchase history, businesses can deliver targeted product recommendations.
   - **Understanding Seasonal Influences:** understand how seasonal factors, and local events impact consumer behavior and purchasing patterns in different regions.
 
+## Visualizations
+For some insights into our dataset, feel free to check our visualization dashboard at [Tableau Public](https://public.tableau.com/app/profile/alaa.al.eryani/viz/Ecommerce_17070771557310/ProfitDashboard)
+
 ## Analysis
 
-- We have three models:
+We used three machine learning models:
   - Model 1: Linear Regression 
   - Model 2: Ridge Regression  
   - Model 3: Time Series Forecasts using Facebook's Prophet.
   
 
-##  📉 Results 📈
+## Results 📈 📉
 
 
 <!-- Hidden Pictures -->
@@ -96,22 +99,12 @@ The purpose of this project is to:
 
 ---
 
+>  **Note:**
+> 
+>  This was a team project by: <br>
+>  - [Alaa Aleryani](https://github.com/alaa-aleryani): ➡️ alaaaleryani31@gmail.com 
+>
+>  - [Yoeri Samwel](https://github.com/yoerisamwel): ➡️ yoerisamwel@gmail.com
+>
 
-<div class="note">
 
-### Note:
-
-This was a team project by: <br>
-- [Alaa Aleryani](https://github.com/alaa-aleryani): ➡️ alaaaleryani31@gmail.com 
-- [Yoeri Samwel](https://github.com/yoerisamwel): ➡️ yoerisamwel@gmail.com
-
-
-</div>
-
-<style>
-.note {
-  padding: 10px;
-  background-color: #f0f0f0;
-  border-left: 6px solid #007bff;; /* Blue border */
-}
-</style>
