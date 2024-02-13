@@ -106,7 +106,7 @@ We used three machine learning models:
 ### Contact Info:
 
 <details>
-<summary><b> Alaa Aleryani:</b></summary>   
+<summary><b> Alaa Aleryani:</b></summary>   <br>
   <a href="mailto:alaaaleryani31@gmail.com">
     <img align="left" alt="Alaa's email" width="25px" height="25"
       src="https://cdn1.iconfinder.com/data/icons/google-new-logos-1/32/gmail_new_logo-256.png">
@@ -122,12 +122,12 @@ We used three machine learning models:
 
 
 <details>
-<summary><b> Yoeri Samwel:</b></summary> 
+<summary><b> Yoeri Samwel:</b></summary> <br>
   <a href="mailto:yoerisamwel@gmail.com">
-    <img width="25px" alt="Yoeri's email" src="https://cdn1.iconfinder.com/data/icons/google-new-logos-1/32/gmail_new_logo-256.png">
+    <img align="left" width="25px" alt="Yoeri's email" src="https://cdn1.iconfinder.com/data/icons/google-new-logos-1/32/gmail_new_logo-256.png">
   </a>
-  <a href="linkedin.com/in/yoeri-samwel-07301826"> 
-    <img alt="Yoeri's LinkedIn Page" width="25px" height="25"
+  <a href="https://www.linkedin.com/in/yoeri-samwel-07301826"> 
+    <img align="left" alt="Yoeri's LinkedIn Page" width="25px" height="25"
       src="https://cdn2.iconfinder.com/data/icons/social-media-with-original-colors/256/icon-linkedin.png">
 </a>
 
