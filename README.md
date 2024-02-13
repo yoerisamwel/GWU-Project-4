@@ -1,4 +1,8 @@
 # Furniture Ecommerce
+By: 
+[Alaa Aleryani](https://github.com/alaa-aleryani) and
+[Yoeri Samwel](https://github.com/yoerisamwel)
+
 <!-- ![ecommerce](Images/ecommerce.jpg) -->
 <img src="Images/ecommerce.jpg" alt="Ecommerce" width="1000" height="300">
 
@@ -84,7 +88,7 @@ We used three machine learning models:
 </details>
 
 
-<!-- 2022 -->
+<!-- Model 3 -->
 
 <details>
 <summary><b> Model 3 👇:</b></summary>
@@ -99,12 +103,34 @@ We used three machine learning models:
 
 ---
 
->  **Note:**
-> 
->  This was a team project by: <br>
->  - [Alaa Aleryani](https://github.com/alaa-aleryani): ➡️ alaaaleryani31@gmail.com 
->
->  - [Yoeri Samwel](https://github.com/yoerisamwel): ➡️ yoerisamwel@gmail.com
->
+### Contact Info:
+
+<details>
+<summary><b> Alaa Aleryani:</b></summary>   
+  <a href="mailto:alaaaleryani31@gmail.com">
+    <img align="center" alt="Alaa's email" width="25px" height="25"
+      src="https://cdn1.iconfinder.com/data/icons/google-new-logos-1/32/gmail_new_logo-256.png">
+  </a> 
+  <a href="https://www.linkedin.com/in/alaa-aleryani-6183a121b/"> 
+    <img align="center" alt="Alaa's LinkedIn Page" width="25px" height="25"
+      src="https://cdn2.iconfinder.com/data/icons/social-media-with-original-colors/256/icon-linkedin.png">
+</a>
+</details>
 
 
+<br>
+
+
+<details>
+<summary><b> Yoeri Samwel:</b></summary> 
+  <a href="mailto:yoerisamwel@gmail.com">
+    <img width="25" alt="Yoeri's email" src="https://cdn1.iconfinder.com/data/icons/google-new-logos-1/32/gmail_new_logo-256.png">
+  </a>
+  <a href="linkedin.com/in/yoeri-samwel-07301826"> 
+    <img alt="Yoeri's LinkedIn Page" width="25px" height="25"
+      src="https://cdn2.iconfinder.com/data/icons/social-media-with-original-colors/256/icon-linkedin.png">
+</a>
+
+</details>
+ 
+ ---
