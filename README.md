@@ -91,5 +91,5 @@ The purpose of this project is to:
 ### Note:
 This was a team project by: <br>
 - [Alaa Aleryani](https://github.com/alaa-aleryani): ➡️ alaaaleryani31@gmail.com 
-- [Yoeri Samewel](https://github.com/yoerisamwel): ➡️ yoerisamwel@gmail.com
+- [Yoeri Samwel](https://github.com/yoerisamwel): ➡️ yoerisamwel@gmail.com
 
