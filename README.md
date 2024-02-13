@@ -1,41 +1,46 @@
 # Furniture Ecommerce
-![ecommerce](Images/ecommerce.jpg)
+<!-- ![ecommerce](Images/ecommerce.jpg) -->
+<img src="Images/ecommerce.jpg" alt="Ecommerce" width="200400" height="200">
+
 
 ## Built With:
-<table>
-  <tr>
-    <td align="center" width="96">
-      <a href="http://python.org">
-        <img src="./Images/python-original.svg" width="48" height="48" alt="Python" />
-      </a>
-      <br>Python
-    </td>
-    <td align="center" width="96">
-      <a href="https://jupyter.org/" >
-        <img src="./Images/jupyter.png" width="48" height="48" alt="Jupyter Notebook" />
-      </a>
-      <br>Jupyter Notebook
-    </td>
-    <td align="center" width="96">
-      <a href="https://public.tableau.com/app/discover" >
-        <img src="Images/tableau.png" width="48" height="48" alt="Tableau" />
-      </a>
-      <br>Tableau 
-    </td>
-    <td align="center" width="96">
-      <a href="https://scikit-learn.org/stable/" >
-        <img src="./Images/scikitlearn.png" width="48" height="48" alt="scikit learn" />
-      </a>
-      <br> Scikit Learn
-    </td>
-    <td align="center" width="96">
-      <a href="" >
-        <img src="./Images/prophet.png" width="48" height="48" alt="Time Series Forecast" />
-      </a>
-      <br> Prophet
-    </td>
-  </tr>
-</table>
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="96">
+        <a href="http://python.org">
+          <img src="./Images/python-original.svg" width="48" height="48" alt="Python" />
+        </a>
+        <br>Python
+      </td>
+      <td align="center" width="96">
+        <a href="https://jupyter.org/" >
+          <img src="./Images/jupyter-logo.svg" width="48" height="48" alt="Jupyter Notebook" />
+        </a>
+        <br>Jupyter Notebook
+      </td>
+      <td align="center" width="96">
+        <a href="https://public.tableau.com/app/discover" >
+          <img src="Images/tableau.png" width="48" height="48" alt="Tableau" />
+        </a>
+        <br>Tableau 
+      </td>
+      <td align="center" width="96">
+        <a href="https://scikit-learn.org/stable/" >
+          <img src="./Images/scikitlearn.png" width="48" height="48" alt="scikit learn" />
+        </a>
+        <br> Scikit Learn
+      </td>
+      <td align="center" width="96">
+        <a href="" >
+          <img src="./Images/prophet.png" width="48" height="48" alt="Time Series Forecast" />
+        </a>
+        <br> Prophet
+      </td>
+    </tr>
+  </table>
+</div>
 
 ## Overview
 The purpose of this project is to:
@@ -88,8 +93,25 @@ The purpose of this project is to:
 
 ## Summary
 
+
+---
+
+
+<div class="note">
+
 ### Note:
+
 This was a team project by: <br>
 - [Alaa Aleryani](https://github.com/alaa-aleryani): ➡️ alaaaleryani31@gmail.com 
 - [Yoeri Samwel](https://github.com/yoerisamwel): ➡️ yoerisamwel@gmail.com
 
+
+</div>
+
+<style>
+.note {
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-left: 6px solid #007bff;; /* Blue border */
+}
+</style>
