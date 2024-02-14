@@ -73,7 +73,11 @@ We used three machine learning models:
 <details>
 <summary><b> Model 1 👇:</b></summary>
   
-  <img width="674" alt="Model 1 Result" src="">
+Our first step in the analysis used a Linear Regression model to predict the Original Price by looking at various factors. We chose this model for its simplicity and ease of understanding. It helped us see how different variables influence the price. Although it's straightforward to use, the model's accuracy score of 64% in our tests shows it's not entirely accurate. This result suggests that we might need to consider more advanced methods in future to improve our predictions.
+
+  <img width="674" alt="Model 1 Result" src="regression_fit_plot_model_1.png">
+
+This graph visualizes the linear regression model's predictions, showing how the target variable (e.g., 'Original_Price') changes as a function of the 'Quantity' feature, alongside actual data points for comparison.
 
 </details>
 
@@ -82,8 +86,12 @@ We used three machine learning models:
 
 <details>
 <summary><b> Model 2 👇:</b></summary>
+
+The Ridge Regression model showed exceptionally high performance on the test data for predicting the Original Price, with an almost negligible error (MAE) of 0.0007296897175481192 and a nearly perfect score (R²) of 0.9999999999955044. However, these near-perfect results suggest the possibility of overfitting, where the model might have learned the training data too closely, including its noise and outliers, rather than capturing the underlying pattern. This concern arises because models that perform too well on the training data often struggle to generalize to new, unseen data, leading to less accurate predictions in real-world scenarios. While the model's high accuracy initially appears impressive, it raises questions about its ability to perform consistently across different datasets. 
   
-  <img width="676" alt="Model 2 Result" src="">
+  <img width="676" alt="Model 2 Result" src="regression_fit_plot_model_2.png">
+
+This graph illustrates the Ridge Regression model's predictions, demonstrating the relationship between the target variable (e.g., 'Original_Price') and the 'Quantity' feature, juxtaposed with actual data points for contextual comparison.
   
 </details>
 
@@ -100,6 +108,11 @@ We used three machine learning models:
 
 ## Summary
 
+This project aimed to explore how different regions have their own unique shopping trends and customer behaviors. The main goal was to figure out what makes each area different, spot where there might be chances to sell more, and make shopping more tailored and enjoyable for customers. By looking at what people have bought in the past, the project tried to help businesses offer more of what customers in specific regions like. It also looked into how changes in seasons or local events affect what people buy in different places.
+
+To do this, we used three types of computer programs or models. The first model was a simple one that tried to predict prices based on other information we know. The second model was a bit more complex and made sure we didn't rely too much on just one piece of information, making our predictions more reliable. The third model was special for looking at how things change over time, like predicting how sales might go up or down during different times of the year. We also made a special online page where anyone can see our findings in a clear and interactive way, making it easier to understand what we found out.
+
+In conclusion, our analysis has provided valuable insights into regional purchasing behaviors, offering a foundational understanding for businesses aiming to tailor their strategies to diverse geographical markets. However, integrating profitability metrics for individual products and categories emerges as a compelling direction for future research. By adopting a more granular approach towards category-specific profitability, businesses could gain a deeper understanding of financial performance across different regions. This refined analysis would not only illuminate top-selling products but also highlight those contributing most significantly to revenue. Consequently, such an approach would enable businesses to craft more nuanced strategies, prioritizing not just volume of sales but also optimizing for higher profit margins.
 
 ---
 
