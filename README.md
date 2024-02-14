@@ -48,16 +48,13 @@ By:
 
 ## Overview
 The purpose of this project is to:
-  - **Understand Regional Market:** understand the unique characteristics, preferences, and behaviors of customers in different geographic areas. 
+  - **Understand Regional Market** and **Enhance Personalization:** By analyzing past purchase history,  understand the unique characteristics, preferences, and behaviors of customers in different geographic areas. 
   - **Identify Growth Opportunities:** allow businesses to identify trends and patterns in sales performance, and market demand.
-  - **Enhance Personalization:** enable businesses to personalize the shopping experience based on regional basis. By analyzing past purchase history, businesses can deliver targeted product recommendations.
   - **Understanding Seasonal Influences:** understand how seasonal factors, and local events impact consumer behavior and purchasing patterns in different regions.
 
-## Project Layout
-<details>
-<summary><b> Data collection:</b></summary>
-  We got our data from [Kaggle](https://www.kaggle.com/datasets/dkhalidashik/superstore-furniture-sales)
-</details>
+> **Note:**
+> We got our data from [Kaggle](https://www.kaggle.com/datasets/dkhalidashik/superstore-furniture-sales)
+>
 
 
 ## Visualizations
@@ -112,20 +109,20 @@ For the last model we used `Time Series Forecast` using Facebook's open source l
 
   <details>
   <summary><b> Forecasting graph:</b></summary>
-    <img width="668" alt="Model 3 Result" src="./Images/Sales_Forecasting_Prophet.png"> <br>
+    <img width="668" alt="Model 3 Result1" src="./Images/Sales_Forecasting_Prophet.png"> <br>
   This graph illustrates a one year sales forecast based on historical data. Giving us a trend with the averages and a high and low amounts that we could expect. 
   </details>
 
 
   <details>
   <summary><b> Trend graph:</b></summary>
-    <img width="668" alt="Model 3 Result" src="./Images/forecast_sales_trend.png"> <br>
-  This trend graph shows an overall unchanging trend, with a high level of certainity for the first couple of months. Then the uncertainity boundries increases over time.
+    <img width="668" alt="Model 3 Result2" src="./Images/forecast_sales_trend.png"> <br>
+  In this trend graph, we could see that the trend line demonstrates a subtle decline with a high level of certainity for the first couple of months. Then the uncertainity boundries increases over time.
   </details>
 
   <details>
   <summary><b> Seasonality trend graph:</b></summary>
-    <img width="668" alt="Model 3 Result" src="./Images/Seasonality_forecast_Prophet.png"> <br>
+    <img width="668" alt="Model 3 Result3" src="./Images/Seasonality_forecast_Prophet.png"> <br>
   For the daily trend, we see that tuesdays are the high days and wednesdays are the low days. 
   For the yearly trend, we see that February tend to have the highest sales. Then comes April then August.
   </details>
