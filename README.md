@@ -111,21 +111,23 @@ This graph illustrates the `Ridge Regression` model's predictions, demonstrating
 For the last model we used `Time Series Forecast` using Facebook's open source library `Prophet`, which was released as an open source on February 2017. We chose this model for its ease of use and because it automatically handles missing data, outliers, and holidays. However, because of it's limited features it may not be effective for many forecasting tasks.
 
   <details>
-  <summary><b> Forecasting graph 👇:</b></summary>
+  <summary><b> Forecasting graph:</b></summary>
     <img width="668" alt="Model 3 Result" src="./Images/Sales_Forecasting_Prophet.png"> <br>
-  This graph illustrates a one year forecast for the sales. 
+  This graph illustrates a one year sales forecast based on historical data. Giving us a trend with the averages and a high and low amounts that we could expect. 
   </details>
 
 
   <details>
-  <summary><b> Trend graph 👇:</b></summary>
+  <summary><b> Trend graph:</b></summary>
     <img width="668" alt="Model 3 Result" src="./Images/forecast_sales_trend.png"> <br>
   This trend graph shows an overall unchanging trend, with a high level of certainity for the first couple of months. Then the uncertainity boundries increases over time.
   </details>
 
   <details>
-  <summary><b> Seasonality trend graph 👇:</b></summary>
+  <summary><b> Seasonality trend graph:</b></summary>
     <img width="668" alt="Model 3 Result" src="./Images/Seasonality_forecast_Prophet.png"> <br>
+  For the daily trend, we see that tuesdays are the high days and wednesdays are the low days. 
+  For the yearly trend, we see that February tend to have the highest sales. Then comes April then August.
   </details>
 
 </details>
