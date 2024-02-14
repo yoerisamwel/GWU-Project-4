@@ -53,6 +53,13 @@ The purpose of this project is to:
   - **Enhance Personalization:** enable businesses to personalize the shopping experience based on regional basis. By analyzing past purchase history, businesses can deliver targeted product recommendations.
   - **Understanding Seasonal Influences:** understand how seasonal factors, and local events impact consumer behavior and purchasing patterns in different regions.
 
+## Project Layout
+<details>
+<summary><b> Data collection:</b></summary>
+  Used Kaggle to get our data
+</details>
+
+
 ## Visualizations
 For some insights into our dataset, feel free to check our visualization dashboard at [Tableau Public](https://public.tableau.com/app/profile/alaa.al.eryani/viz/Ecommerce_17070771557310/ProfitDashboard)
 
