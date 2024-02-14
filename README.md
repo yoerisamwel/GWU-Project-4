@@ -49,11 +49,11 @@ By:
 ## Overview
 The purpose of this project is to:
   - **Understand Regional Market** and **Enhance Personalization:** By analyzing past purchase history,  understand the unique characteristics, preferences, and behaviors of customers in different geographic areas. 
-  - **Identify Growth Opportunities:** allow businesses to identify trends and patterns in sales performance, and market demand.
+  - **Identify Growth Opportunities:** identify trends and patterns in sales performance, and market demand.
   - **Understanding Seasonal Influences:** understand how seasonal factors, and local events impact consumer behavior and purchasing patterns in different regions.
 
 > **Note:**
-> We got our data from [Kaggle](https://www.kaggle.com/datasets/dkhalidashik/superstore-furniture-sales)
+> we got our data from [Kaggle](https://www.kaggle.com/datasets/dkhalidashik/superstore-furniture-sales)
 >
 
 
@@ -63,9 +63,9 @@ For some insights into our dataset, feel free to check our visualization dashboa
 ## Analysis
 
 We used three machine learning models:
-  - **Model 1:** Linear Regression 
-  - **Model 2:** Ridge Regression  
-  - **Model 3:** Time Series Forecasts using Facebook's Prophet.
+  - **Model 1:** [Linear Regression](https://github.com/alaa-aleryani/Final_Project/blob/main/Analysis/Linear_Regression.ipynb) 
+  - **Model 2:** [Ridge Regression](https://github.com/alaa-aleryani/Final_Project/blob/main/Analysis/Linear_Regression.ipynb)  
+  - **Model 3:** [Time Series Forecasts using Facebook's Prophet.](https://github.com/alaa-aleryani/Final_Project/blob/main/Analysis/Sales_TimeSeries_Prediction_Prophet.ipynb)
   
 
 ## Results 📈 📉
