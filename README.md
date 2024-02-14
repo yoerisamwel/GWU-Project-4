@@ -56,7 +56,7 @@ The purpose of this project is to:
 ## Project Layout
 <details>
 <summary><b> Data collection:</b></summary>
-  Used Kaggle to get our data
+  We got our data from [Kaggle](https://www.kaggle.com/datasets/dkhalidashik/superstore-furniture-sales)
 </details>
 
 
@@ -66,9 +66,9 @@ For some insights into our dataset, feel free to check our visualization dashboa
 ## Analysis
 
 We used three machine learning models:
-  - Model 1: Linear Regression 
-  - Model 2: Ridge Regression  
-  - Model 3: Time Series Forecasts using Facebook's Prophet.
+  - **Model 1:** Linear Regression 
+  - **Model 2:** Ridge Regression  
+  - **Model 3:** Time Series Forecasts using Facebook's Prophet.
   
 
 ## Results 📈 📉
@@ -80,11 +80,11 @@ We used three machine learning models:
 <details>
 <summary><b> Model 1 👇:</b></summary>
   
-Our first step in the analysis used a Linear Regression model to predict the Original Price by looking at various factors. We chose this model for its simplicity and ease of understanding. It helped us see how different variables influence the price. Although it's straightforward to use, the model's accuracy score of 64% in our tests shows it's not entirely accurate. This result suggests that we might need to consider more advanced methods in future to improve our predictions.
+Our first step in the analysis used a `Linear Regression` model to predict the Original Price by looking at various factors. We chose this model for its simplicity and ease of understanding. It helped us see how different variables influence the price. Although it's straightforward to use, the model's accuracy score of 64% in our tests shows it's not entirely accurate. This result suggests that we might need to consider more advanced methods in future to improve our predictions.
 
   <img width="674" alt="Model 1 Result" src="./Images/regression_fit_plot_model_1.png"> <br>
 
-This graph visualizes the linear regression model's predictions, showing how the target variable (e.g., 'Original_Price') changes as a function of the 'Quantity' feature, alongside actual data points for comparison.
+This graph visualizes the `linear regression` model's predictions, showing how the target variable (e.g., 'Original_Price') changes as a function of the 'Quantity' feature, alongside actual data points for comparison.
 
 </details>
 
@@ -94,11 +94,11 @@ This graph visualizes the linear regression model's predictions, showing how the
 <details>
 <summary><b> Model 2 👇:</b></summary>
 
-The Ridge Regression model showed exceptionally high performance on the test data for predicting the Original Price, with an almost negligible error (MAE) of 0.0007296897175481192 and a nearly perfect score (R²) of 0.9999999999955044. However, these near-perfect results suggest the possibility of overfitting, where the model might have learned the training data too closely, including its noise and outliers, rather than capturing the underlying pattern. This concern arises because models that perform too well on the training data often struggle to generalize to new, unseen data, leading to less accurate predictions in real-world scenarios. While the model's high accuracy initially appears impressive, it raises questions about its ability to perform consistently across different datasets. 
+The `Ridge Regression` model showed exceptionally high performance on the test data for predicting the Original Price, with an almost negligible error (MAE) of 0.0007296897175481192 and a nearly perfect score (R²) of 0.9999999999955044. However, these near-perfect results suggest the possibility of overfitting, where the model might have learned the training data too closely, including its noise and outliers, rather than capturing the underlying pattern. This concern arises because models that perform too well on the training data often struggle to generalize to new, unseen data, leading to less accurate predictions in real-world scenarios. While the model's high accuracy initially appears impressive, it raises questions about its ability to perform consistently across different datasets. 
   
   <img width="676" alt="Model 2 Result" src="./Images/regression_fit_plot_model_2.png"> <br>
 
-This graph illustrates the Ridge Regression model's predictions, demonstrating the relationship between the target variable (e.g., 'Original_Price') and the 'Quantity' feature, juxtaposed with actual data points for contextual comparison.
+This graph illustrates the `Ridge Regression` model's predictions, demonstrating the relationship between the target variable (e.g., 'Original_Price') and the 'Quantity' feature, juxtaposed with actual data points for contextual comparison.
   
 </details>
 
@@ -108,7 +108,25 @@ This graph illustrates the Ridge Regression model's predictions, demonstrating t
 <details>
 <summary><b> Model 3 👇:</b></summary>
   
-  <img width="668" alt="Model 3 Result" src="./Images/Sales_Forecasting_Prophet.png">
+For the last model we used `Time Series Forecast` using Facebook's open source library `Prophet`, which was released as an open source on February 2017. We chose this model for its ease of use and because it automatically handles missing data, outliers, and holidays. However, because of it's limited features it may not be effective for many forecasting tasks.
+
+  <details>
+  <summary><b> Forecasting graph 👇:</b></summary>
+    <img width="668" alt="Model 3 Result" src="./Images/Sales_Forecasting_Prophet.png"> <br>
+  This graph illustrates a one year forecast for the sales. 
+  </details>
+
+
+  <details>
+  <summary><b> Trend graph 👇:</b></summary>
+    <img width="668" alt="Model 3 Result" src="./Images/forecast_sales_trend.png"> <br>
+  This trend graph shows an overall unchanging trend, with a high level of certainity for the first couple of months. Then the uncertainity boundries increases over time.
+  </details>
+
+  <details>
+  <summary><b> Seasonality trend graph 👇:</b></summary>
+    <img width="668" alt="Model 3 Result" src="./Images/Seasonality_forecast_Prophet.png"> <br>
+  </details>
 
 </details>
 
