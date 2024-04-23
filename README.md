@@ -63,9 +63,9 @@ For some insights into our dataset, feel free to check our visualization dashboa
 ## Analysis
 
 We used three machine learning models:
-  - **Model 1:** [Linear Regression](https://github.com/alaa-aleryani/Final_Project/blob/main/Analysis/Linear_Regression.ipynb) 
-  - **Model 2:** [Ridge Regression](https://github.com/alaa-aleryani/Final_Project/blob/main/Analysis/Linear_Regression.ipynb)  
-  - **Model 3:** [Time Series Forecasts using Facebook's Prophet.](https://github.com/alaa-aleryani/Final_Project/blob/main/Analysis/Sales_TimeSeries_Prediction_Prophet.ipynb)
+  - **Model 1:** [Linear Regression](https://github.com/yoerisamwel/Final_Project/blob/main/Analysis/Linear_Regression.ipynb) 
+  - **Model 2:** [Ridge Regression](https://github.com/yoerisamwel/Final_Project/blob/main/Analysis/Linear_Regression.ipynb)  
+  - **Model 3:** [Time Series Forecasts using Facebook's Prophet.](https://github.com/yoerisamwel/Final_Project/blob/main/Analysis/Sales_TimeSeries_Prediction_Prophet.ipynb)
   
 
 ## Results 📈 📉
